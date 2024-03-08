@@ -28,22 +28,22 @@ data koleksi dapat menyimpan, mengelola, dan mengakses data dengan cara yang ter
 
 ## Guided 
 ### 1. Tipe Data Primitif
-![Screenshot (1)](https://github.com/Gustavers/MODUL-1-TIPE-DATA/assets/162097300/93c8e447-d259-4c2c-b59d-507908010cd4)
+![Screenshot (1)](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/5b35b0a0-962c-4984-bd72-ee9e6a9a85b2)
 
 Program dimulai dengan deklarasi sebuah variabel char 'op' untuk menyimpan operator, serta dua variabel float 'num1' dan 'num2' untuk menyimpan dua bilangan yang akan dioperasikan. disini pengguna diminta untuk input operator dan dua bilangan melalui input. Selanjutnya, program menggunakan struktur switch untuk memeriksa nilai variabel 'op' dan menjalankan operasi aritmetika sesuai dengan kasus yang diminta (penjumlahan, pengurangan, perkalian, atau pembagian). Jika operator yang dimasukkan tidak sesuai dengan empat operasi tersebut, program akan mencetak pesan "error operator is not correct".
 
 ### 2. Tipe data abstrak
-![Screenshot (2)](https://github.com/Gustavers/MODUL-1-TIPE-DATA/assets/162097300/348248f9-2dfa-43dd-8d53-b28ff361b5f4)
+![Screenshot (2)](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/a9191d62-9091-4c7e-979e-d82d862623f5))
 Program diatas menggunakan fungsi struct "Mahasiswa" yang memiliki tiga anggota yaitu "name" untuk nama mahasiswa, "address" untuk alamat mahasiswa, dan "age" untuk umur mahasiswa. Dalam fungsi main() terdapat dua variabel struct Mahasiswa, yaitu mhs1 dan mhs2, dideklarasikan dan diinisialisasi dengan data masing-masing mahasiswa. Setelah itu, program mencetak informasi tentang kedua mahasiswa yang mencakup nama, alamat, dan umur, menggunakan fungsi printf(). Hasilnya adalah output yang menampilkan data mahasiswa mhs1 dan mhs2 secara terstruktur. Program ini memberikan contoh cara menggunakan struktur untuk mengorganisir dan menyimpan data terkait dalam bahasa pemrograman C.
 
 ### 3. Tipe Data Koleksi
-![Screenshot (4)](https://github.com/Gustavers/MODUL-1-TIPE-DATA/assets/162097300/3a20f1f2-c2da-4631-bf23-c39870df9514)
+![Screenshot (4)](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/52665d72-2e95-4008-8be6-a6f4a70bdc11)
 Program di atas adalah contoh penggunaan Array dengan nama "nilai" yang dideklarasikan sebagai array integer dengan panjang 5 dan kemudian diinisialisasi dengan nilai-nilai tertentu. Setelah itu, program mencetak isi array tersebut menggunakan perintah cout. Setiap elemen array dicetak secara terpisah dengan menyertakan indeksnya, dimulai dari indeks 0 hingga indeks 4. Hasilnya adalah output yang menampilkan nilai dari setiap elemen array "nilai". Program ini memberikan gambaran sederhana tentang deklarasi, inisialisasi, dan penggunaan array dalam bahasa C++ untuk menyimpan dan mengakses sejumlah nilai terkait.
 ## Unguided 
 
 ### 1. Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas ,Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!
 
-![Screenshot (6)](https://github.com/Gustavers/MODUL-1-TIPE-DATA/assets/162097300/94488813-e113-49b9-92fb-2c30009e301e)
+![Screenshot (6)](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/d3023973-045c-489c-ad33-ea0ddd6beb0c)
 kode diatas merupakan contoh penggunaan data primitif yaitu integer untuk menghitung volume balok berdasarkan panjang, lebar, dan tinggi yang dimasukkan oleh pengguna melalui input. Program dimulai dengan mendeklarasikan fungsi hitungVolumeBalok, yang terdapat tiga parameter (panjang, lebar, tinggi) dan mengembalikan hasil perkalian ketiga parameter tersebut. Dalam fungsi main, variabel panjang, lebar, dan tinggi dideklarasikan sebagai integer untuk menyimpan input pengguna. Pengguna diminta untuk memasukkan nilai panjang, lebar, dan tinggi melalui cin. Selanjutnya, fungsi hitungVolumeBalok dipanggil dengan menggunakan input pengguna sebagai argumen, dan hasilnya disimpan dalam variabel volume. Hasil volume kemudian dicetak menggunakan cout. Program ini memberikan contoh sederhana tentang penggunaan tipe data primitif untuk menghitung volume balok.
 
 ### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya
@@ -51,15 +51,15 @@ Class dan struct adalah dua konsep dasar dalam pemrograman berorientasi objek ya
 1. Class berfungsi sebagai model untuk membuat objek dan mendefinisikan tipe data baru dengan anggota dan perilaku (metode). Anggota class default tetap anonim, dan konsep pewarisan class memungkinkan class baru mewarisi anggota dari class yang sudah ada. Selain itu, class dapat memiliki konstruktor dan destruktor untuk memulai dan membersihkan sumber daya.
 
 #### contoh program :
-![Screenshot (7)](https://github.com/Gustavers/MODUL-1-TIPE-DATA/assets/162097300/e8e1361e-e779-459b-aab7-d5adc64915c5)
+![Screenshot (7)](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/9e83d9f7-678a-4f85-bf62-e8ceb10ffd0d)
 
 2. Struct, di sisi lain, digunakan untuk membuat tipe data yang juga dapat menyimpan data terkait, tetapi umumnya digunakan untuk kasus sederhana tanpa tingkah laku kompleks. Anggota struct defaultnya bersifat public, yang berarti bahwa mereka dapat diakses langsung dari luar struct. Struct tidak mendukung konsep pewarisan dan memiliki constructor secara default yang dihasilkan oleh kompilator.
 
 #### contoh program :
-![Screenshot (8)](https://github.com/Gustavers/MODUL-1-TIPE-DATA/assets/162097300/b3d0f968-4212-46fd-86ab-bc186152b676)
+![Screenshot (8)](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/0d97727d-baee-4634-9313-ce3556c8b23a)
 
 ### Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map
-![Screenshot (9)](https://github.com/Gustavers/MODUL-1-TIPE-DATA/assets/162097300/6a3b0225-ff98-4a4d-852d-b76cc1670669)
+![Screenshot (9)](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/f07423a8-baf2-489b-b510-69a59738adc7)
 Program di atas struktur data map dari STL (Standard Template Library). Map digunakan untuk menyimpan pasangan key-value, di mana key bertipe string dan value bertipe int. Pertama, program membuat objek map bernama "nilai" dan menambahkan beberapa pasangan key-value yang mewakili nilai-nilai mahasiswa. Lalu program mengakses nilai dengan key tertentu dan mencetaknya ke layar. Kemudian, program melakukan pencarian key "bunga" dalam map menggunakan metode find(). Jika key tersebut ditemukan, nilai yang sesuai dicetak, namun karena key "bunga" tidak ada dalam map, program mencetak pesan "bunga tidak ditemukan". Program ini memberikan contoh penggunaan map untuk menyimpan dan mengakses data dengan key dan value. perbedaan map dengan array salah satunya adalah array menggunakan indeks numerik sebagai alat akses langsung ke elemen-elemen. Indeks dimulai dari 0 dan berlanjut secara terurut. sedangkan map menggunakan key sebagai alat akses ke nilai yang sesuai. Key dapat berupa tipe data apa pun yang mendukung operasi perbandingan dan memiliki sifat unik.
 ## Kesimpulan
 kesimpulannya tipe data primitif adalah tipe data dasar yang disediakan oleh bahasa pemrograman untuk merepresentasikan nilai dasar seperti integer, float, char, dan boolean. Masing-masing tipe data primitif memiliki fungsi dan karakteristiknya sendiri. Di sisi lain, tipe data abstrak atau ADT adalah tipe data yang dibuat oleh programer dengan lebih banyak fleksibilitas, dapat berisi lebih dari satu tipe data, dan sering digunakan dalam pemrograman berorientasi objek dengan menggunakan konsep Class dan Struct. Selain itu, tipe data koleksi seperti array, vector, dan map digunakan untuk mengelompokkan dan menyimpan data secara terstruktur, dengan masing-masing memiliki kegunaan khusus dalam mengelola dan mengakses data. Secara keseluruhan, pemahaman yang baik tentang berbagai tipe data ini penting dalam pengembangan perangkat lunak untuk memilih struktur data yang sesuai dengan kebutuhan dan karakteristik program yang sedang dibangun.
