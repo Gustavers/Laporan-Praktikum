@@ -22,4 +22,3 @@ int main() {
     cout << "Volume balok : " << volume;
     return 0;
 }
-

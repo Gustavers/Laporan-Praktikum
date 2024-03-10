@@ -5,13 +5,15 @@
 ## Tipe Data Primitif
 Tipe data primitif adalah tipe data dasar yang disediakan oleh bahasa pemrograman untuk merepresentasikan nilai dasar atau elemen-elemen dasar dalam program. Tipe data primitif digunakan untuk menyimpan nilai sederhana seperti bilangan bulat, bilangan riil, karakter, dan sebagainya. Setiap bahasa pemrograman memiliki tipe data primitifnya sendiri dengan ukuran dan ciri-ciri tertentu.
 
-- Int atau integer adalah tipe data yang nilainya terdiri dari angka bulat. Tipe data ini hanya bisa menyimpan angka bulat saja tanpa pecahan (desimal). Nilainya bisa positif maupun negatif seperti 1, 2, 3 dan sebagainya
+- **Integer** dalam C++, seperti dalam matematika, adalah angka-angka berikut:- 6728, -67, 0, 78, 36782, +763. Perhatikan dua aturan berikut:
+1. Integer positif tidak memerlukan tanda +.
+2. Koma tidak dipakai pada sebuah integer Ingat bahwa dalam C++, koma dipakai untuk memisahkan tiap item pada sebuah daftar atau senarai. Jadi, 34,56 akan diinterpretasikan sebagai dua integer: 34 dan 56.[1]
 
-- Float atau disebut juga floating point atau real number adalah tipe data angka yang memiliki bagian desimal di akhir angka. Jika ingin menyimpan angka berkoma, kita bisa menggunakan tipe data ini. contohnya  1.4, 2.6, 3.04, dan sebagainya.
+- **Float** atau disebut juga floating point atau real number adalah tipe data angka yang memiliki bagian desimal di akhir angka. Jika ingin menyimpan angka berkoma, kita bisa menggunakan tipe data ini. contohnya  1.4, 2.6, 3.04, dan sebagainya.
 
-- Char adalah tipe data yang digunakan untuk menyimpan satu karakter saja. Dan penulisannya harus diapit oleh tanda petik tunggal
+- Tipe data **char** merupakan tipe data integral yang terkecil. la umumnya dipakai untuk merepresentasikan karakter, yaitu huruf, dijit, dan simbol spesial. Jadi, tipe data char dapat merepresentasikan setiap kunci pada papanketik Anda. Ketika menggunakan tipe data char, Anda perlu mengapit setiap karakter dengan sepasang tanda kutip tunggal.[1]
 
-- Boolean adalah tipe data yang hanya memiliki 2 pilihan nilai, yaitu true dan false.
+- Tipe data **Boolean** hanya memiliki dua nilai: true dan false. Selain itu, true dan false dikenal pula dengan nilai logikal (Boolean). Tujuan utama dari tipe data ini adalah untuk memanipulasi ekspresi logikal (Boolean), Ekspresi logikal akan didiskusikan secara detil pada Bab 3. Dalam C++, bool, true, dan false adalah kata kunci.[1]
 
 ## Tipe Data Abstrak
 Tipe data abstrak atau yang biasa disebut Abstrak Data Tipe(ADT) adalah tipe data yang dibuat oleh programer itu sendiri. Pada tipe data abstrak bisa berisi lebih darti satu tipe data, jadi nilainya bisa beragam. Fitur Class
@@ -22,9 +24,9 @@ bersifat private.
 Tipe data koleksi (Collection Data Type) merupakan tipe data yang digunakan untuk
 mengelompokkan dan menyimpan beberapa nilai atau objek secara bersamaan. Jadi Tipe
 data koleksi dapat menyimpan, mengelola, dan mengakses data dengan cara yang terstruktur. Ada beberapa tipe data koleksi yang sering digunakan dalam pemrograman di antaranya adalah:
-- Array adalah struktur data yang menyimpan elemen-elemen dengan tipe data yang sama dalam urutan terindeks. Setiap elemen dalam array dapat diakses menggunakan indeks atau posisi tertentu. Array digunakan untuk menyimpan dan mengelola sejumlah besar data dengan cara yang efisien dan terstruktur.
-- Vector adalah struktur data dinamis yang disediakan oleh C++ Standard Template Library (STL). Ini adalah implementasi dari array dinamis yang mengelola alokasi memori dan penyimpanan secara otomatis, memungkinkan programmer untuk dengan mudah menambah atau mengurangi ukuran vector selama runtime.
-- Map adalah struktur data yang menyimpan pasangan key-value, dimana setiap key memiliki value yang terkait dengannya. Map biasanya diimplementasikan sebagai tabel hash atau pohon pencarian biner dalam berbagai bahasa pemrograman.
+- **Array** adalah suatu struktur yang terdiri dari sejumlah elemen yang memiliki tipe data yang sama. Elemen-elemen array tersusun secara sekuensial dalam memori komputer. Semua elemem array bertipe sama. Array cocok untuk organisasi kumpulan data homogen yang ukuran atau jumlah elemen maksimumnya telah diketahui dari awal. Homogen adalah bahwa setiap elemen dari sebuah array tertentu haruslah mempunyai tipe data yang sama.[2]
+- **Vector** adalah struktur data dinamis yang disediakan oleh C++ Standard Template Library (STL). Ini adalah implementasi dari array dinamis yang mengelola alokasi memori dan penyimpanan secara otomatis, memungkinkan programmer untuk dengan mudah menambah atau mengurangi ukuran vector selama runtime.
+- **Map** adalah struktur data yang menyimpan pasangan key-value, dimana setiap key memiliki value yang terkait dengannya. Map biasanya diimplementasikan sebagai tabel hash atau pohon pencarian biner dalam berbagai bahasa pemrograman.
 
 ## Guided 
 ### 1. Tipe Data Primitif
@@ -170,7 +172,7 @@ kode diatas merupakan contoh penggunaan data primitif yaitu integer untuk menghi
 
 ### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya
 Class dan struct adalah dua konsep dasar dalam pemrograman berorientasi objek yang digunakan untuk mengatur data dan fungsi ke dalam satu unit yang disebut sebagai "tipe data". Meskipun keduanya memiliki kesamaan, terdapat beberapa perbedaan utama dalam cara mereka digunakan dan perilaku default mereka.
-1. Class berfungsi sebagai model untuk membuat objek dan mendefinisikan tipe data baru dengan anggota dan perilaku (metode). Anggota class default tetap anonim, dan konsep pewarisan class memungkinkan class baru mewarisi anggota dari class yang sudah ada. Selain itu, class dapat memiliki konstruktor dan destruktor untuk memulai dan membersihkan sumber daya.
+1. **Class** berfungsi sebagai model untuk membuat objek dan mendefinisikan tipe data baru dengan anggota dan perilaku (metode). Anggota class default tetap anonim, dan konsep pewarisan class memungkinkan class baru mewarisi anggota dari class yang sudah ada. Selain itu, class dapat memiliki konstruktor dan destruktor untuk memulai dan membersihkan sumber daya.
 
 #### contoh program :
 ![Screenshot (7)](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/9e83d9f7-678a-4f85-bf62-e8ceb10ffd0d)
@@ -202,7 +204,7 @@ int main() {
 #### Output :
 ![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/c4796831-5a54-4816-b371-ed00644c8598)
 
-2. Struct, di sisi lain, digunakan untuk membuat tipe data yang juga dapat menyimpan data terkait, tetapi umumnya digunakan untuk kasus sederhana tanpa tingkah laku kompleks. Anggota struct defaultnya bersifat public, yang berarti bahwa mereka dapat diakses langsung dari luar struct. Struct tidak mendukung konsep pewarisan dan memiliki constructor secara default yang dihasilkan oleh kompilator.
+2. **Struct**, di sisi lain, digunakan untuk membuat tipe data yang juga dapat menyimpan data terkait, tetapi umumnya digunakan untuk kasus sederhana tanpa tingkah laku kompleks. Anggota struct defaultnya bersifat public, yang berarti bahwa mereka dapat diakses langsung dari luar struct. Struct tidak mendukung konsep pewarisan dan memiliki constructor secara default yang dihasilkan oleh kompilator.
 
 #### contoh program :
 ![Screenshot (8)](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/0d97727d-baee-4634-9313-ce3556c8b23a)
@@ -262,3 +264,9 @@ Program di atas struktur data map dari STL (Standard Template Library). Map digu
 ## Kesimpulan
 
 Kesimpulannya tipe data primitif adalah tipe data dasar yang disediakan oleh bahasa pemrograman untuk merepresentasikan nilai dasar seperti integer, float, char, dan boolean. Masing-masing tipe data primitif memiliki fungsi dan karakteristiknya sendiri. Di sisi lain, tipe data abstrak atau ADT adalah tipe data yang dibuat oleh programer dengan lebih banyak fleksibilitas, dapat berisi lebih dari satu tipe data, dan sering digunakan dalam pemrograman berorientasi objek dengan menggunakan konsep Class dan Struct. Selain itu, tipe data koleksi seperti array, vector, dan map digunakan untuk mengelompokkan dan menyimpan data secara terstruktur, dengan masing-masing memiliki kegunaan khusus dalam mengelola dan mengakses data. Secara keseluruhan, pemahaman yang baik tentang berbagai tipe data ini penting dalam pengembangan perangkat lunak untuk memilih struktur data yang sesuai dengan kebutuhan dan karakteristik program yang sedang dibangun.
+
+## Referensi
+
+[1] Sianipar, R.H. (2014). _Pemrograman c++ untuk pemula_. Informatika. 
+
+[2] Pratama, M. A. (2020). _Sttuktur data array dua dimensi pada pemrograman C++_.
