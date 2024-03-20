@@ -269,4 +269,4 @@ Kesimpulannya tipe data primitif adalah tipe data dasar yang disediakan oleh bah
 
 [1] Sianipar, R.H. (2014). _Pemrograman c++ untuk pemula_. Informatika. 
 
-[2] Pratama, M. A. (2020). _Sttuktur data array dua dimensi pada pemrograman C++_.
+[2] Pratama, M. A. (2020). _Struktur data array dua dimensi pada pemrograman C++_.

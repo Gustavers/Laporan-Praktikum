@@ -12,8 +12,8 @@ int main()
         {
             for (int z = 0; z < 3; z++)
             {
-                cout << "input array["<< x <<"][" << z << "]=";
-                cin >> arr[x][y][z];
+                cout << "input array["<< x <<"] [" << y << "] [" << z << "]=";
+                cin >> arr[x] [y] [z];
             }
         }
         cout << endl;
@@ -21,11 +21,11 @@ int main()
     //output array
     for (int x = 0; x < 2; x++)
     {
-        for (int y = 9; y < 3; y++)
+        for (int y = 0; y < 3; y++)
         {
             for (int z = 0; z < 3; z++)
             {
-                cout  << "Data Array  [" << x << "][" << y << "][" << z << "]=" << arr[x][y][z] << endl;
+                cout  << "Data Array  [" << x << "] [" << y << "] [" << z << "]=" << arr[x] [y] [z] << endl;
             }
         }
     }
@@ -37,7 +37,7 @@ int main()
         {
             for (int z = 0; z < 3; z++)
             {
-                cout << arr[x][y][z] << ends;
+                cout << arr[x] [y] [z] << ends;
             }
             cout << endl;
         }
