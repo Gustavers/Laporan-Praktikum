@@ -347,4 +347,4 @@ Array adalah struktur data yang digunakan untuk menyimpan sekumpulan nilai yang 
 
 ## Referensi
 
-[1] Pratama, M. A. (2020). STRUKTUR DATA ARRAY DUA DIMENSI  PADA PEMROGRAMAN C++. https://doi.org/10.31219/osf.io/vyech
+[1] Pratama, M. A. (2020). _Struktur data array dua dimensi pada pemrograman C++_. https://doi.org/10.31219/osf.io/vyech
