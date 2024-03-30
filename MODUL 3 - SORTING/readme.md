@@ -29,6 +29,7 @@ Metode maksimum karena didasarkan pada pemilihan data atau elemen maksimum sebag
 dasar pengurutan [2]. Konsepnya dengan memilih elemen maksimum kemudian mempertukarkan
 elemen maksimum tersebut dengan elemen paling akhir untuk urutan ascending dan elemen
 pertama untuk descending [2]. contoh ilustrasi :
+
 ![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/fac4ec79-8fd9-4509-8ab3-88d0f422e0e3)
 
 
@@ -84,7 +85,7 @@ int main(){
 #### Output :
 ![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/78f1151b-ed8c-4330-b624-f81f4e979c15)
 
-Kode di atas menggunakan algoritma sort bubble untuk mengurutkan array a yang berisi 5 bilangan desimal. Algoritma ini melakukan ini dengan membandingkan elemen yang berdekatan dalam array berulang kali dan akan di tukar jika urutannya tidak benar. Sampai seluruh array terurut, proses ini diulangi. Dua fungsi utama dalam kode tersebut adalah bubble_sort dan print_array. Fungsi pertama melakukan pengurutan array menggunakan algoritma bubble sort, dan fungsi kedua melakukan iterasi pada array untuk mengubah elemen jika diperlukan. Namun, isi array dapat dicetak ke layar dengan menggunakan fungsi print_array. Sebelum pengurutan dilakukan, fungsi main() menciptakan array bilangan pecahan dan mencetaknya ke layar. Untuk mengurutkan array, fungsi bubble_sort digunakan. Selanjutnya, hasil pengurutan dicetak kembali untuk menampilkan urutan setelah pengurutan. 
+Kode di atas menggunakan algoritma bubble sort untuk mengurutkan array a yang berisi 5 bilangan desimal. Algoritma ini melakukan ini dengan membandingkan elemen yang berdekatan dalam array berulang kali dan akan di tukar jika urutannya tidak benar. Sampai seluruh array terurut, proses ini diulangi. Dua fungsi utama dalam kode tersebut adalah bubble_sort dan print_array. Fungsi pertama melakukan pengurutan array menggunakan algoritma bubble sort, dan fungsi kedua melakukan iterasi pada array untuk mengubah elemen jika diperlukan. Namun, isi array dapat dicetak ke layar dengan menggunakan fungsi print_array. Sebelum pengurutan dilakukan, fungsi main() menciptakan array bilangan pecahan dan mencetaknya ke layar. Untuk mengurutkan array, fungsi bubble_sort digunakan. Selanjutnya, hasil pengurutan dicetak kembali untuk menampilkan urutan setelah pengurutan. 
 
 ### 2. Mengurutkan karakter secara descending (dari terbesar hingga terkecil) menggunakan Algoritma Insertion Sort
 ![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/4c43ef51-380c-4ac6-a278-232618c363d7)
@@ -182,7 +183,7 @@ int main() {
 #### Output :
 ![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/d5da102c-4a80-4afa-af85-f3353fb0bdfd)
 
-Kode diatas bertujuan untuk mengurutkan Indeks Prestasi Semester (IPS) siswa. Program ini bekerja dengan mencari nilai IPS terbesar pada setiap iterasi, dan kemudian menukarnya dengan elemen pertama yang belum diurutkan. Sampai seluruh array terurut, proses ini berakhir. Sementara fungsi "selection_sort" melakukan proses pengurutan, fungsi "print_ips" mencetak nilai IPS siswa ke layar. Nilai IPS siswa telah ditetapkan dalam array "ips" dalam fungsi "main". Setelah nilai IPS sebelum pengurutan dicetak, fungsi "selection_sort" digunakan untuk mengurutkan nilai IPS. Setelah pengurutan selesai, hasilnya dicetak kembali ke layar. Ini menampilkan urutan dari IPS tertinggi hingga terendah.
+Kode diatas bertujuan untuk mengurutkan Indeks Prestasi Semester (IPS) siswa. Program ini bekerja dengan mencari nilai IPS terbesar pada setiap iterasi, dan kemudian menukarnya dengan elemen pertama yang belum diurutkan. Sampai seluruh array terurut, proses ini berakhir. Sementara fungsi "selection_sort" melakukan proses pengurutan, fungsi "print_ips" mencetak nilai IPS siswa ke layar. Nilai IPS siswa telah ditetapkan dalam array "ips" dalam fungsi "main". Setelah nilai IPS sebelum pengurutan dicetak, fungsi "selection_sort" digunakan untuk mengurutkan nilai IPS. Setelah pengurutan selesai, hasilnya dicetak kembali ke layar. Ini menampilkan urutan dari IPS tertinggi hingga terendah. Untuk kompleksitas waktu dari program ini adalah O(n2) dikarenakan adanya dua loop bersarang.
 
 #### Full code Screenshot :
 ![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/143e7539-144f-4775-9e44-60d9bce6b6b3)
@@ -238,7 +239,7 @@ int main() {
 #### Output :
 ![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/5aee5768-d494-4f66-94fc-c3590bf6904d)
 
-Kode di atas untuk mengurutkan array string yang berisi nama penduduk menggunakan algoritma bubble sort. Fungsi BubbleSort diimplementasikan untuk mengurutkan dengan melakukan iterasi melalui array dan membandingkan setiap pasangan elemen secara berurutan. Jika nama indeks saat ini lebih besar dari nama indeks berikutnya, maka posisinya ditukar. Proses ini diulangi hingga tidak ada lagi pertukaran yang perlu dilakukan, yang menunjukkan bahwa array telah diurutkan. Pada fungsi utama dideklarasikan tabel nama yang berisi nama-nama warga negara. Sebelum disortir, nama-nama tersebut dicetak di layar. Setelah menyortir dengan BubbleSort, nama yang telah diurutkan akan dicetak kembali ke layar untuk menampilkan urutannya ketika proses sorting selesai.
+Kode di atas untuk mengurutkan array string yang berisi nama penduduk menggunakan algoritma bubble sort. Fungsi BubbleSort diimplementasikan untuk mengurutkan dengan melakukan iterasi melalui array dan membandingkan setiap pasangan elemen secara berurutan. Jika nama indeks saat ini lebih besar dari nama indeks berikutnya, maka posisinya ditukar. Proses ini diulangi hingga tidak ada lagi pertukaran yang perlu dilakukan, yang menunjukkan bahwa array telah diurutkan. Pada fungsi utama dideklarasikan tabel nama yang berisi nama-nama warga negara. Sebelum disortir, nama-nama tersebut dicetak di layar. Setelah menyortir dengan BubbleSort, nama yang telah diurutkan akan dicetak kembali ke layar untuk menampilkan urutannya ketika proses sorting selesai. Untuk kompleksitas waktu dari program ini adalah O(n2) dikarenakan adanya dua loop bersarang
 
 #### Full code screenshot :
 ![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/92f72f90-3c2e-41a3-bcb7-4d86c4ea2129)
@@ -300,7 +301,7 @@ int main() {
 #### Output :
 ![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/7b965519-0fd4-4841-8575-3735953a7bd2)
 
-Program diatas meminta user memasukkan 5 karakter satu per satu. Setelah memasukkan karakter, program menampilkan string sebelum menyortir. Program kemudian melakukan pengurutan menaik menggunakan dan menampilkan hasil item. Program kemudian melakukan pengurutan menurun yang menghasilkan pengurutan menurun. Hasil penyortiran juga ditampilkan. Program ini menampikan karakter sebelum di urutkan dan karakter yang sudah diurutkan secara ascending maupun descending..
+Program diatas meminta user memasukkan 5 karakter satu per satu. Setelah memasukkan karakter, program menampilkan string sebelum menyortir. Program kemudian melakukan pengurutan menaik menggunakan dan menampilkan hasil item. Program kemudian melakukan pengurutan menurun yang menghasilkan pengurutan menurun. Hasil penyortiran juga ditampilkan. Program ini menampikan karakter sebelum di urutkan dan karakter yang sudah diurutkan secara ascending maupun descending. Kompleksitas waktu program ini adalah O(n log n) untuk kedua proses pengurutan (ascending dan descending), di mana n adalah jumlah elemen dalam array.
 
 #### Full code screenshot :
 ![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/aa68413c-52e2-42ca-8abf-e049af4fb48c)
