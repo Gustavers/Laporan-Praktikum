@@ -297,7 +297,7 @@ Program diatas dapat menghitung berapa banyak huruf vokal yang ada dalam kalimat
 #### Full code screenshot :
 ![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/678fbf71-0496-4791-a4af-a10f1c0d31c3)
 
-### 3. . Diketahui data = 9, 4, 1, 4, 7, 10, 5, 4, 12, 4. Hitunglah berapa banyak angka 4 dengan menggunakan algoritma Sequential Search!
+### 3. Diketahui data = 9, 4, 1, 4, 7, 10, 5, 4, 12, 4. Hitunglah berapa banyak angka 4 dengan menggunakan algoritma Sequential Search!
 
 ```c++
 #include <iostream>
