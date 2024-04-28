@@ -166,7 +166,7 @@ int main() {
 ```
 
 #### Output :
-![image](https://github.com/Gustavers/Laporan-praktikum/assets/162097300/0fbfec36-feb8-4caf-959d-da1e1f9d274d)
+![image](https://github.com/Gustavers/Laporan-Praktikum/assets/162097300/0fbfec36-feb8-4caf-959d-da1e1f9d274d)
 
 kode diatas merupakan contoh penggunaan data primitif yaitu integer untuk menghitung volume balok berdasarkan panjang, lebar, dan tinggi yang dimasukkan oleh pengguna melalui input. Program dimulai dengan mendeklarasikan fungsi hitungVolumeBalok, yang terdapat tiga parameter (panjang, lebar, tinggi) dan mengembalikan hasil perkalian ketiga parameter tersebut. Dalam fungsi main, variabel panjang, lebar, dan tinggi dideklarasikan sebagai integer untuk menyimpan input pengguna. Pengguna diminta untuk memasukkan nilai panjang, lebar, dan tinggi melalui cin. Selanjutnya, fungsi hitungVolumeBalok dipanggil dengan menggunakan input pengguna sebagai argumen, dan hasilnya disimpan dalam variabel volume. Hasil volume kemudian dicetak menggunakan cout. Program ini memberikan contoh sederhana tentang penggunaan tipe data primitif untuk menghitung volume balok.
 
