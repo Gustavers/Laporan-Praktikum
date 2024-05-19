@@ -7,18 +7,28 @@
 Priority Queue adalah suatu bentuk struktur data yang berbasiskan struktur Queue pada umumnya. Pada priority Queue, terdapat salah satu bentuk implementasi yaitu implementasi menggunakan struktur data heaps. Dalam implementasi ini ada 3 pokok atribut yaitu heaps, comparator, dan last. Dengan menggunakan fasilitas heap ini kita bisa melakukan insert atau remove elemen dalam kompleksitas waktu logaritmik. Pada priority Queue ini, secara keseluruhan akan dibentuk sebuah pohon biner yang seimbang. Dalam pembuatan pohon biner ini diusahakan ketinggian yang terbentuk adalah minimum. Keminimuman tinggi pohon inilah yang menyebabkan kompleksitas waktu dalam memanipulasi daun menjadi fungsi logaritmik[1].
 Priority Queue adalah struktur data abstrak yang memungkinkan penyimpanan dan pengambilan elemen berdasarkan prioritasnya. Elemen dengan prioritas tertinggi diakses dan dihapus terlebih dahulu. Heap (tumpukan) adalah salah satu implementasi populer dari antrian prioritas [2].
 
-Heap adalah struktur data pohon biner lengkap yang memenuhi dua properti:
+**Heap adalah struktur data pohon biner lengkap yang memenuhi dua properti:**
 - Heap Max: Nilai pada setiap node tidak boleh lebih kecil dari nilai anak-anaknya.
 - Heap Min: Nilai pada setiap node tidak boleh lebih besar dari nilai anak-anaknya.
 Dalam heap max, elemen dengan prioritas tertinggi terletak di root (puncak) pohon. Heap min, di sisi lain, memiliki elemen dengan prioritas terendah di root.
 
-Operasi Dasar pada Antrian Prioritas:
+**Operasi Dasar pada Antrian Prioritas**
 
 - Insert(x): Memasukkan elemen baru x ke dalam antrian prioritas.
 - ExtractMax(): Mengambil dan menghapus elemen dengan prioritas tertinggi dari antrian prioritas.
 - DecreaseKey(i, newPriority): Menurunkan prioritas elemen pada indeks i ke nilai baru newPriority.
 - IncreaseKey(i, newPriority): Menaikkan prioritas elemen pada indeks i ke nilai baru newPriority.
 - PeekMax(): Mengembalikan elemen dengan prioritas tertinggi tanpa menghapusnya.
+
+**Kelebihan Priority Queue :**
+
+- Efisiensi : Priority queue memungkinkan akses dan penghapusan elemen dengan prioritas tertinggi dengan efisiensi waktu O(log n), di mana n adalah jumlah elemen dalam antrian.
+- Fleksibilitas : Priority queue dapat digunakan untuk menyimpan elemen dengan berbagai jenis prioritas.
+- Kemudahan Penggunaan : Adanya kelas std::priority_queue yang mudah digunakan untuk mengimplementasikan priority queue.
+
+**Kekurangan Priority Queue :**
+- Kompleksitas : Implementasi priority queue lebih kompleks dibandingkan array dan list.
+- Penggunaan Memori : Priority queue umumnya membutuhkan lebih banyak memori dibandingkan array dan list.
 
 ## Guided 
 Kode Program :
