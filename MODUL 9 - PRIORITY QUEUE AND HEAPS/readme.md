@@ -12,7 +12,7 @@ Priority Queue adalah struktur data abstrak yang memungkinkan penyimpanan dan pe
 - Heap Min: Nilai pada setiap node tidak boleh lebih besar dari nilai anak-anaknya.
 Dalam heap max, elemen dengan prioritas tertinggi terletak di root (puncak) pohon. Heap min, di sisi lain, memiliki elemen dengan prioritas terendah di root.
 
-**Operasi Dasar pada Antrian Prioritas**
+**Operasi Dasar pada Antrian Prioritas :**
 
 - Insert(x): Memasukkan elemen baru x ke dalam antrian prioritas.
 - ExtractMax(): Mengambil dan menghapus elemen dengan prioritas tertinggi dari antrian prioritas.
