@@ -386,7 +386,7 @@ int main() {
 
 
 #### Full code Screenshot :
-![image](https://github.com/Gustavers/Laporan-Praktikum/assets/162097300/0483ed1d-4eac-4287-ab2b-5a40d6728fcf)
+![image](https://github.com/Gustavers/Laporan-Praktikum/assets/162097300/4a07521f-ffe5-4bf6-b749-6bc144d93900)
 
 ## Kesimpulan
 Priority Queue adalah struktur data abstrak yang memungkinkan elemen diproses berdasarkan prioritas, di mana elemen dengan prioritas tertinggi diproses lebih dahulu. Implementasi efisien dari priority queue dapat dilakukan menggunakan heap, yang merupakan pohon biner lengkap dengan properti heap yang memastikan elemen maksimum (max-heap) atau minimum (min-heap) selalu berada di akar. Dalam C++, heap dapat diimplementasikan menggunakan array, di mana operasi utama seperti insert dan extract-max dilakukan dengan menjaga properti heap melalui proses heapify. Implementasi ini memberikan efisiensi waktu \(O(\log n)\) untuk operasi utama, menjadikannya pilihan yang optimal untuk berbagai aplikasi yang membutuhkan pengelolaan elemen berdasarkan prioritas.
