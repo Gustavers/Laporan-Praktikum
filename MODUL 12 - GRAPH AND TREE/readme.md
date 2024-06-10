@@ -447,6 +447,7 @@ Saat dijalankan, program akan meminta input dari pengguna, membangun pohon biner
 ![image](https://github.com/Gustavers/Laporan-Praktikum/assets/162097300/4264fba0-0547-4f38-90c3-a5e10f9f7c7f)
 
 ## Kesimpulan
+Graph dan tree adalah struktur data penting dalam ilmu komputer yang memiliki beragam aplikasi dalam pemodelan dan pemecahan masalah. Graph digunakan untuk merepresentasikan hubungan antara objek atau entitas dalam berbagai domain, seperti jaringan sosial, jaringan komputer, dan perencanaan rute. Sementara itu, tree digunakan untuk menggambarkan hierarki data, seperti struktur direktori pada sistem file dan struktur organisasi perusahaan. Kedua struktur data ini memiliki berbagai jenis dan karakteristik yang memengaruhi implementasi dan algoritma yang digunakan. Studi tentang graph dan tree memberikan wawasan mendalam tentang struktur data dan algoritma yang penting dalam pengembangan perangkat lunak dan pemrosesan informasi.
 
 ## Referensi
 [1] Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. (2009). "Introduction to Algorithms, Third Edition." MIT Press.
