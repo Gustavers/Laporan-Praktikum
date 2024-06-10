@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ahmad/Documents/FILE KULIAH/PRAKTIKUM ALGORITMA DAN STRUKTUR DATA/Repo Git/MODUL 1-TIPE DATA/MODUL 9 - PRIORITY QUEUE AND HEAPS",
-      "program": "c:/Users/ahmad/Documents/FILE KULIAH/PRAKTIKUM ALGORITMA DAN STRUKTUR DATA/Repo Git/MODUL 1-TIPE DATA/MODUL 9 - PRIORITY QUEUE AND HEAPS/build/Debug/outDebug",
+      "cwd": "c:/Users/ahmad/Documents/FILE KULIAH/SEMESTER 2/PRAKTIKUM ALGORITMA DAN STRUKTUR DATA/Repo Git/MODUL 1-TIPE DATA/MODUL 12 - GRAPH AND TREE",
+      "program": "c:/Users/ahmad/Documents/FILE KULIAH/SEMESTER 2/PRAKTIKUM ALGORITMA DAN STRUKTUR DATA/Repo Git/MODUL 1-TIPE DATA/MODUL 12 - GRAPH AND TREE/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
